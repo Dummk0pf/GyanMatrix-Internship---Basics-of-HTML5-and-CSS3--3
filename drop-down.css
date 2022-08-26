@@ -1,0 +1,41 @@
+body{
+    background-color: lightblue;
+}
+
+.tbox{
+    display: inline-block;
+    width: 3rem;
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+    padding:1rem;
+    position: relative; 
+}
+
+.dropdown{
+    display: none;
+    z-index: 10;
+    position: absolute;
+    padding-top: 1.5rem;
+    margin-left:-1rem;
+}
+
+.tbox:hover .dropdown{
+    display:block;
+    color:black;
+    text-decoration: none;
+}
+
+.dropdown .tbox{
+    background-color: aquamarine;
+}
+
+.dropdown .tbox:hover{
+    transition: 0.5s;
+    background-color: azure;
+}
+
+.dropdown .tbox:active{
+    transform: scale(0.9);
+}
+
+

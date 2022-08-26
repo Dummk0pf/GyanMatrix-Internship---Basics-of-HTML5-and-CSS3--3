@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <meta name="description" content="Contact Details for roar cycles">
+    <link rel="stylesheet" href="css-reset.css">
+    <link rel="stylesheet" href="style1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c3203ac9d9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+                <a href="index.html" target="_self" class="imgclass"><img src="images/logo-roar-bikes.png" alt="Logo for roar bikes"></a>
+                <nav>
+                    <div class="navbutton">
+                        <a href="#" class="atag">Book Online</a>
+                        <div class="dropdownbox">
+                            <div class="navbutton1">
+                                <a href="#">Online Service</a>
+                            </div>
+                            <div class="navbutton1">
+                                <a href="#">Parts Delivery</a>
+                            </div>
+                            <div class="navbutton1">
+                                <a href="#">Request callback</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="navbutton">
+                        <a href="contact-us.html" class="atag">Contact</a>
+                    </div>
+                    <div class="navbutton">
+                        <a href="#" class="atag">Sales</a>
+                    </div>
+                </nav>
+        </header>
+        <main>
+            <div class="herobox1">
+                <h1>Contact us</h1>
+                <p>Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within a matter of hours to help you.</p>
+                <!-- using button <a href="#" target="_blank"><button>Book Online</button></a> -->
+
+                <form action="mail.php" method="post">
+                    <div class="labelname">
+                        <label for="Name">Name:</label>
+                        <input type="text" name="Name" id="Name" title="First Name" placeholder="First Name">
+                    </div>
+
+                    <div class="labelname">
+                        <label for="Email"> Email:</label>
+                        <input type="email" name="Email" id="Email" title="Enter Email" placeholder="Someone@example.com">
+                    </div>
+                    
+                    <div class="labelname">
+                        <label for="newsletter">Sign up for newsletter :</label>
+                        <input type="checkbox" name="newsletter" id="newsletter">
+                    </div>
+                    
+                    <div class="labelname">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Want to tell more ?"></textarea>
+                    </div>
+                    
+                    <div class="labelname">
+                        <p>How is the Form ?</p>
+                        <label for="feedback">Nice :</label>
+                        <input type="radio" name="feedback" id="feedback">
+                        &nbsp; <!--Used to add space expansion(non breakable space)-->
+                        <label for="feedback">Could do better :</label>
+                        <input type="radio" name="feedback" id="feedback">
+                    </div>
+
+                    <div class="labelname">
+                        <select name="" id="">
+                            <option value="Not-chosen" placeholer="Choose county">Choose county</option>
+                            <option value="Not-chosen" placeholer="Limerick">Limerick</option>
+                            <option value="Not-chosen" placeholer="Galway">Galway</option>                            
+                        </select>
+                    </div>
+
+                    <div class="labelname">
+                        <input type="submit" value="Fire away">
+                    </div>
+                </form>
+            </div>
+        </main>
+        <div class="cards">
+            <a href="#" class="card card1"   target="_blank">
+                <div>
+                    <i class="fa-solid fa-motorcycle"></i>
+                    <!-- alternative way <img src="images/icon1-delivery.png" alt="Icon for delivery"> -->
+                    <h2>Book Online</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, eveniet modi nostrum esse ea assumenda!</p>
+                </div>
+            </a>
+            <a href="#" class="card card2"   target="_blank">
+                <div>
+                    <i class="fa-solid fa-cog"></i>
+                    <!-- alternative way<img src="images/icon2-wrench.png" alt="Icon for servicing"> -->
+                    <h2>Service Types</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo libero reprehenderit, eius ab ullam repudiandae?</p>
+                </div>
+            </a>
+            <a href="#" class="card card3"   target="_blank">
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <!--alternative way <img src="images/icon3-phone.png" alt="Icon for Contact"> -->
+                    <h2>Call for advice</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut quo eius ullam veniam, sunt nostrum.</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="testimonials">
+            <div class="tbox">
+                <p>"I would like to personally thank you for your outstanding product. You guys rock! It's all good. I can't say enough about Roar Cycles."</p>
+                <p>- Tammara I.</p>
+            </div>
+            <div class="tbox">
+                <p>"I'm good to go. Roar Cycles is both attractive and highly adaptable. I will refer everyone I know."</p>
+                <p>- Carlin B.</p>
+            </div>
+            <div class="tbox">
+                <p>"Roar Cycles is the most valuable business resource we have EVER purchased. I will let my mum know about this, she could really make use of Roar Cycles! Roar Cycles has completely surpassed our expectations."</p>
+                <p>- Floris V.</p>
+            </div>
+            <div class="tbox">
+                <p>"Roar Cycles is the most valuable business resource we have EVER purchased. I will let my mum know about this, she could really make use of Roar Cycles! Roar Cycles has completely surpassed our expectations."</p>
+                <p>- Floris V.</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
